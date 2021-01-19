@@ -1,11 +1,10 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
 	pageEncoding="UTF-8"%>
-<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefic="c" %>
 <!DOCTYPE html>
 <html>
 <head>
 <meta charset="UTF-8">
-<title>main</title>
+<title>Insert title here</title>
 <link rel="stylesheet"
 	href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
 	integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2"
@@ -19,27 +18,12 @@
 	crossorigin="anonymous"></script>
 </head>
 <body>
-	<div class="container">
-		<table class="table table-striped table-hover">
-			<thead class="thead-dark">
-				<tr>
-					<th scope="col">NO</th>
-					<th scope="col">BRAND</th>
-					<th scope="col">PRODUCT</th>
-					<th scope="col">STATUS</th>
-				</tr>
-			</thead>
-			<tbody>
-			<c:forEach var="product" items"${list }">
-				<tr>
-					<th scope="row">${product.productId }</th>
-					<td>${product.productBrand}</td>
-					<td>${product.productName }</td>
-					<td>${product.productStatus }</td>
-				</tr>
-			</c:forEach>
-			</tbody>
-		</table>
-	</div>
+	<ul class="list-group list-group-flush">
+		<li class="list-group-item">Cras justo odio</li>
+		<li class="list-group-item">Dapibus ac facilisis in</li>
+		<li class="list-group-item">Morbi leo risus</li>
+		<li class="list-group-item">Porta ac consectetur ac</li>
+		<li class="list-group-item">Vestibulum at eros</li>
+	</ul>
 </body>
 </html>

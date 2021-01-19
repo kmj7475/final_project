@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
-<mapper namespace="com.etoile.app.history.mapper.historyMapper">
+<mapper namespace="com.etoile.app.history.mapper.HistoryMapper">
 	<!-- 상품들 상세 조회 및 상태별 상품들 상세 조회 -->
-	<select id="productList" resultType="ProductVO">
+	<select id="prodcutList" resultType="ProductVO">
 		SELECT product_id,
 			   product_name,
 			   product_serial,
@@ -22,7 +22,7 @@
 	</select>
 	
 	<!-- 한 상품에 대한 상세조회 -->
-	<select id="productList" resultType="ProductVO">
+	<select id="productSelect" resultType="ProductVO">
 		SELECT product_id,
 			   product_name,
 			   product_serial,

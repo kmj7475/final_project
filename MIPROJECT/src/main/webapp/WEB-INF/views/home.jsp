@@ -7,6 +7,6 @@
 	<title>Home</title>
 </head>
 <body>
-<jsp:forward page="home.do"/>
+	내용
 </body>
 </html>

@@ -20,7 +20,7 @@
 <body>
 	<div class="container">
 		<div>
-			<a href="#"> <img src="resources/image/main.png"
+			<a href="#"> <img src="/MIPROJECT/images/main.png"
 				onclick="location.href='#'"></a>
 			<button style="float: right;" class="btn btn-outline-dark">signup</button>
 			<button style="float: right;" class="btn btn-outline-dark">login</button>

@@ -15,10 +15,10 @@ public class HistoryController {
 	@Autowired
 	private HistoryService historyService;
 	
-	@RequestMapping("historyList.do")
+	@RequestMapping("/admin/historyList.do")
 	public String historyList(ProductVO vo, Model model) {
 		List<ProductVO> productList = historyService.prodcutList(vo);
 		model.addAttribute("list", productList);
-		return "product_history/historyList";
+		return "admin/product_history/historyList";
 	}
 }
